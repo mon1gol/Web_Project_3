@@ -1,0 +1,266 @@
+.header {
+  background: rgba(0, 0, 0, 0.87);
+  height: 46px;
+  width: 100%;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.writes {
+  font-family: 'century gothic';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.035em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.035em;
+  color: #FFFFFF;
+  text-decoration: underline white;
+}
+
+.button {
+  background: rgba(0, 0, 0, 0.87);
+  width: 62px;
+  height: 24px;
+  left: 1392px;
+  top: 11px;
+  border: 0.5px solid #FFFFFF;
+  border-radius: 25px;
+}
+
+.input {
+  border-radius: 25px;
+}
+
+upside {
+  position: relative;
+  top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.index-b1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 260px;
+  height: 330px;
+  background: #7D81A7;
+  border-radius: 35px;
+}
+
+.index-b1:hover {
+  position: relative;
+  bottom: 20px;
+}
+
+.index-b2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 260px;
+  height: 330px;
+  background: #64485C;
+  border-radius: 35px;
+}
+
+.index-b2:hover {
+  position: relative;
+  bottom: 20px;
+}
+
+.index-b3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 260px;
+  height: 330px;
+  background: #484B64;
+  border-radius: 35px;
+}
+
+.index-b3:hover {
+  position: relative;
+  bottom: 20px;
+}
+
+.index-b4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 260px;
+  height: 330px;
+  background: #728569;
+  border-radius: 35px;
+}
+
+.index-b4:hover {
+  position: relative;
+  bottom: 20px;
+}
+
+.writes_main_upside {
+  font-family: 'century gothic';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 19px;
+  letter-spacing: 0.035em;
+  color: #FFFFFF;
+  text-decoration: none;
+  text-align: center;
+  letter-spacing: 0.035em;
+}
+
+.index-b5 {
+  position: relative;
+  top: 100px;
+  left: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 1322px;
+  height: 326px;
+  background: #AE8599;
+  border-radius: 35px;
+}
+
+.index-b5:hover {
+  box-shadow: 0 0 10px #917474;
+}
+
+.button_main {
+  background: #FFFFFF;
+  width: 102px;
+  height: 81px;
+  border-radius: 28px;
+}
+
+.index-b6 {
+  height: 326px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.b7 {
+  position: relative;
+  top: 150px;
+  left: 50px;
+  width: 1322px;
+  height: 405px;
+  background: #E8E3B8;
+  border-radius: 35px;
+}
+
+.b7:hover {
+  box-shadow: 0 0 30px #f2ecb8;
+}
+
+.b9 {
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.b8 {
+  width: 888px;
+  height: 210px;
+  background: #FFFFFF;
+  border-radius: 35px;
+}
+
+.b10 {
+  position: relative;
+  bottom: 100px;
+  left: 1175px;
+}
+
+.b11 {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  top: 200px;
+  left: 50px;
+  width: 1322px;
+  height: 450px;
+  background: #FFFFFF;
+  border-radius: 35px;
+}
+
+.b11:hover {
+  box-shadow: 0 0 30px #c0f0f0;
+}
+
+.b12 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.b13 {
+  position: relative;
+  left: 575px;
+}
+
+footer {
+  position: relative;
+  top: 250px;
+  height: 55px;
+  width: 100%;
+  border: 1px solid #000000;
+  display: flex;
+  align-items: center;
+}
+
+.writes_footer {
+  font-family: 'century gothic';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.035em;
+  color: #000000;
+  /*text-decoration:none;*/
+  text-decoration-color: #3d2761;
+}
+
+.b14 {
+  position: relative;
+  right: 450px;
+  /*left:105px;*/
+}
+
+.b15 {
+  position: relative;
+  right: 150px;
+  /*left:353px;*/
+}
+
+.b16 {
+  position: relative;
+  right: 50px;
+}
+
+.b17 {
+  position: absolute;
+  left: 1100px;
+}

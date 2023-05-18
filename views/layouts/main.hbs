@@ -1,0 +1,15 @@
+{{> head }}
+    <body>
+        {{#if isHome}}
+            {{> navbar }}
+
+            {{{ body }}}
+
+            {{> footer }}
+        {{else}}
+            {{> navbar2 }}
+            
+            {{{ body }}}
+        {{/if}}
+    </body>
+</html>

@@ -1,0 +1,202 @@
+.repl-writes {
+  font-family: 'century gothic';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.035em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.logo {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.035em;
+  color: #FFFFFF;
+  text-decoration: underline white;
+}
+
+.button {
+  background: rgba(0, 0, 0, 0.87);
+  width: 62px;
+  height: 24px;
+  left: 1392px;
+  top: 11px;
+  border: 0.5px solid #FFFFFF;
+  border-radius: 25px;
+}
+
+.input {
+  border-radius: 25px;
+}
+
+.body {
+  background: #1E1E1E;
+}
+
+.repl-main {
+  position: relative;
+  top: 100px;
+  width: 1266px;
+  height: 513px;
+  background: #2C2F37;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.repl-b1 {
+  width: 1266px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.line {
+  position: relative;
+  bottom: 50px;
+  align-items: center;
+  width: 1200px;
+}
+
+.l {
+  position: relative;
+  bottom: 101px;
+  left: calc(94%/3/2);
+  width: calc(94%/3*2);
+  height: 1px;
+  background: #FFFFFF;
+}
+
+.l1 {
+  position: relative;
+  bottom: 40px;
+  right: calc(94%/3*2/2);
+  width: calc(94%/3);
+  height: 3px;
+  background: #560AD2;
+}
+
+.repl2-l {
+  position: relative;
+  bottom: 31px;
+  right: calc(94%/3);
+  width: calc(94%/3);
+  height: 1px;
+  background: #FFFFFF;
+}
+
+.repl2-l2 {
+  position: relative;
+  bottom: 61px;
+  left: calc(94%/3);
+  width: calc(94%/3);
+  height: 1px;
+  background: #FFFFFF;
+}
+
+.repl2-l1 {
+  width: calc(94%/3);
+  height: 3px;
+  background: #560AD2;
+}
+
+.repl3-l{
+  position:relative;
+  bottom:34px;
+  right:calc(94%/3/2);
+  width: calc(94%/3*2); 
+  height: 1px; 
+  background: #FFFFFF;
+}
+.repl3-l1{
+  position:relative;
+  left:calc(94%/3*2/2);
+  width: calc(94%/3); 
+  height: 3px; 
+  background: #560AD2;
+}
+
+.repl-inp {
+  position: relative;
+  bottom: 40px;
+  width: 434px;
+  height: 45px;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-family: 'century gothic';
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.repl-b2 {
+  width: 434px;
+  height: 45px;
+  background: #2C2F37;
+  box-sizing: border-box;
+  border: 1px solid #FFFFFF;
+  border-radius: 10px;
+  background: #2C2F37;
+  color: #FFFFFF;
+  font-family: 'century gothic';
+  font-size: 15px;
+
+}
+
+.repl-b3 {
+  cursor: pointer;
+  position: relative;
+  left: 400px;
+  width: 265px;
+  height: 49px;
+  background: #560AD2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.repl-b3:hover {
+  box-shadow: 0 0 10px #2A1CD0;
+}
+
+.b4 {
+  display: flex;
+}
+
+.repl-b5 {
+  cursor: pointer;
+  position: relative;
+  right: 400px;
+  top: 30px;
+  width: 265px;
+  height: 49px;
+  background: #560AD2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.repl-b5:hover {
+  box-shadow: 0 0 10px #2A1CD0;
+}
+
+.b6{
+  width:95%;
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

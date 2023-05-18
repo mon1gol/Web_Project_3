@@ -1,0 +1,127 @@
+.login-header {
+  background: rgba(0, 0, 0, 0.87);
+  height: 46px;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.writes {
+  font-family: 'century gothic';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.035em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.logo {
+  font-family: 'century gothic';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.035em;
+  color: #FFFFFF;
+  text-decoration: underline white;
+}
+
+.button {
+  background: rgba(0, 0, 0, 0.87);
+  width: 62px;
+  height: 24px;
+  left: 1392px;
+  top: 11px;
+  border: 0.5px solid #FFFFFF;
+  border-radius: 25px;
+}
+
+.input {
+  border-radius: 25px;
+}
+
+.login-body {
+  background: #1E1E1E;
+  display: flex;
+  height: 1000px;
+  flex-direction: column-reverse;
+}
+
+.login-b1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 350px;
+  height: 376px;
+  background: #2C2F37;
+  border-radius: 24px;
+}
+
+.login-main {
+  margin-top: 280px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.inp {
+  width: 265px;
+  height: 47px;
+  background: #2C2F37;
+  box-sizing: border-box;
+  border: 1px solid #141414;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+
+.writes_main {
+  font-family: 'century gothic';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.035em;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.login-writes_main:hover {
+  text-decoration: underline;
+  text-decoration-color: #FFFFFF;
+}
+
+.login-b2 {
+  height: 46x;
+  background: #2C2F37;
+  color: #969595;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid #2C2F37;
+}
+
+.login-b3 {
+  cursor: pointer;
+  width: 265px;
+  height: 50px;
+  background: #560AD2;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-family: 'century gothic';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.035em;
+  color: #FFFFFF
+}
+
+.login-b3:hover {
+  box-shadow: 0 0 10px #2A1CD0;
+}
