@@ -1,0 +1,27 @@
+<div class="login-body">
+    <div class="login-main">
+        <form action="/registration/user" method="POST" class="login-b1">
+            <div class="inp">
+                <input id="name" name="name" type="text" placeholder="Имя" class="login-b2" required>
+                <span data-error="Введите имя"></span>
+            </div>
+
+            <div class="inp">
+                <input id="surname" name="surname" type="text" placeholder="Фамилия" class="login-b2" required>
+                <span data-error="Введите фамилию"></span>
+            </div>
+
+            <div class="inp">
+                <input id="number" name="number" type="text" placeholder="Номер телефона" class="login-b2" required min="11">
+                <span data-error="Введите номер"></span>
+            </div>
+
+            <div class="inp">
+                <input id="pass" name="pass" type="password" placeholder="Пароль" class="login-b2" required min="5">
+                <span data-error="Введите пароль(5 знаков)"></span>
+            </div>
+
+            <button class="login-b3">Регистрация</button>
+        </form>
+    </div>
+</div>

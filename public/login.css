@@ -92,7 +92,17 @@
 }
 
 .login-writes_main:hover {
-  text-decoration: underline;
+  text-decoration: none;
+}
+
+.login-writes_main:visited {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.login-writes_main:active{
+  text-decoration: none;
+  color: #FFFFFF;
   text-decoration-color: #FFFFFF;
 }
 
@@ -111,6 +121,7 @@
   height: 50px;
   background: #560AD2;
   border-radius: 10px;
+  border: none;
   display: flex;
   align-items: center;
   justify-content: space-around;
