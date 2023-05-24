@@ -1,21 +1,10 @@
-const { Client } = require('pg')
-
-const client = new Client({
-  host: 'localhost',
+const Pool = require('pg').Pool
+const pool = new Pool({
+  user: "postgres",
+  password: 'root',
+  host: "localhost",
   port: 5432,
-  database: 'websockettest',
-  user: 'postgres',
-  password: '121212',
+  database: "project_3_login"
 })
 
-client.connect((err) => {
-  if (err) {
-    console.error('connection error', err.stack)
-  } else {
-    console.log('connected')
-  }
-})
-
-module.exports = {
-  query: (string, payload) => client.query(string, payload)
-}
+module.exports = pool
