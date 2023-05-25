@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
 .header {
   background: rgba(0, 0, 0, 0.87);
   height: 46px;

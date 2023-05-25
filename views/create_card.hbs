@@ -1,0 +1,19 @@
+<div class="login-body">
+    <div class="login-main">
+        <form action="/create_card" method="POST" class="login-b1">
+            <div class="inp">
+                <input id="title" name="title" type="text" placeholder="Название карты" class="login-b2" required>
+                <span data-error="Введите название карты"></span>
+            </div>
+
+            <div class="inp">
+                <input id="number" name="number" type="text" placeholder="Номер карты" class="login-b2" required min="16">
+                <span data-error="Введите 16-ти значный номер карты"></span>
+            </div>
+
+            <input id="user_id" name="user_id" type="hidden" value="{{userId}}">
+
+            <button type="submit" class="login-b3">Создать карту</button>
+        </form>
+    </div>
+</div>

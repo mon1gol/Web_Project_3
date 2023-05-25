@@ -17,14 +17,22 @@
         <img src="/icon/search_icon.png" width="20" height="20">
     </span>
     <span>
-        <a href="" class="writes">Контакты</a>
+        <a href="/my_cards" class="writes">Мои карты</a>
     </span>
     <span>
-        <a href="" class="writes">Регистрация счета</a>
+        <a href="create_card" class="writes">Регистрация счета</a>
     </span>
+{{#if isAuthorized}}
+    <span>
+        <button class="button">
+            <a href="/" class="writes">Выйти</a>
+        </button>
+    </span>
+{{else}}
     <span>
         <button class="button">
             <a href="/login" class="writes">Войти</a>
         </button>
     </span>
+{{/if}}
 </div>

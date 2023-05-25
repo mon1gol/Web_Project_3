@@ -1,17 +1,19 @@
-<div class="login-body">
+<form action="/login/user/:id" method="POST" class="login-body">
     <div class="login-main">
         <div class="login-b1">
             <div class="inp">
-                <input type="text" placeholder="Номер телефона" class="login-b2">
+                <input id="number" name="number" type="text" placeholder="Номер телефона" class="login-b2" required min="11">
+                 <span data-error="Введите номер"></span>
             </div>
             <div class="inp">
-                <input type="text" placeholder="Пароль" class="login-b2">
+                <input id="pass" name="pass" type="password" placeholder="Пароль" class="login-b2" required min="5">
+                <span data-error="Введите пароль"></span>
             </div>
-            <div class="login-b3">
+            <button class="login-b3">
                 Войти
-            </div>
+            </button>
 
             <a href="/registration" class="login-writes_main">Первый раз? Зарегестрироваться</a>
         </div>
     </div>
-</div>
+</form>

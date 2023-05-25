@@ -1,0 +1,18 @@
+<h1>Карты</h1>
+
+{{#if cards.length}}
+{{#each cards}}
+<div class="login-main" style="height:300px; width:500px; color:#ffffff; ">
+    <div class="login-b1">
+        <div class="inp">
+            <span>{{this.title}}</span>
+        </div>
+        <div class="inp">
+            <span>{{this.number}}</span>
+        </div>
+    </div>
+</div>
+{{/each}}
+{{else}}
+<p>Карт пока нет</p>
+{{/if}}

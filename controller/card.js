@@ -1,16 +1,16 @@
-const db = require('../db')
+const {db, pgp} = require('../db')
 
 class CardController{
     async createCard(req, res){
-        const {title, number, userId} = req.body
+        const {title, number} = req.body
+        const userId = req.cookies.userId;
         const newCard = await db.query(`INSERT INTO card (title, number, user_id) values ($1, $2, $3) RETURNING *`, [title, number, userId])
-        res.json(newCard.rows[0])
+        res.redirect('/my_cards')
     }
 
-    async getCardsByUser(req, res){
-        const id = req.query.id
-        const cards = await db.query(`select * from card where user_id = $1`, [id])
-        res.json(cards.rows)
+    async getCardsByUser(userId) {
+        const cards = await db.query('SELECT * FROM card WHERE user_id = $1', [userId]);
+        return cards;
     }
 
     async deleteCard(req, res){

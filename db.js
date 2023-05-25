@@ -1,3 +1,6 @@
+const pgp = require('pg-promise')();
+const db = pgp('postgres://postgres:root@localhost:5432/project_3_login');
+
 const Pool = require('pg').Pool
 const pool = new Pool({
   user: "postgres",
@@ -8,3 +11,7 @@ const pool = new Pool({
 })
 
 module.exports = pool
+module.exports = {
+  db,
+  pgp
+}
